@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER flash_shift_ip
+	OPTION supported_peripherals = (flash_shift_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = flash_shift_ip;
+END DRIVER
