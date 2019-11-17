@@ -7,7 +7,7 @@ How to run '.tcl' scripts in Vivado:
 
 Launch Vivado open the tcl console below
 Navigate to the tcl console and type in'cd "Your Project Directory" to navigate to the script path
-Then type in: source build.tcl
+Then type in: source <your script name>.tcl
 Note: Ensure the script is not located in a directory with a space in it
 
 (i.e C:/Users/Gabriel Elkadiki/project)
