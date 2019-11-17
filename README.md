@@ -16,7 +16,7 @@ To build this project:
 1. Create a new project in Vivado
 2. Ensure all required IP's are in the catalog
 2. Build the block diagrams using the steps above
-3. Update all IPs by typing this into the TCL console: upgrade_ips [get_ips]
+3. Update all IPs by typing this into the TCL console: upgrade_ip [get_ips]
 4. Generate a new bitstream and Export Hardware to SDK (Tick Include bitstream)
 5. Program the board using the hardware manager and select the bitstream.
 6. Launch the SDK and create a new application project -> Empty Project
